@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
 </head>
 <body>
     <section class="header">
@@ -42,13 +43,13 @@
         </section>
     <section id="contact-form">
         <div><h2><br>How can I help you?<br><br></h2>
-        <form action="mailto:email@123.com">
+        <form action="submit" name="#form">
             <label for="fname">First Name:</label>
             <input type="text" id="fname" name="fname"><br><br>
             <label for="lname">Last Name:</label>
             <input type="text" id="lname" name="lname"><br><br>
             <textarea id="freeform" name="freeform" rows="4" cols="50">Message:</textarea><br><br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" id="#submit" name="#submit">
         </form>
     </section>
 </body>
